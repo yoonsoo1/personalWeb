@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: local('Ubuntu'), url(./fonts/Ubuntu/Ubuntu-Medium.ttf) format('truetype');
+}
+
+body p {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+body h4 {
+  margin: 0;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.intro {
+  background-color: #8caef1;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+  height: 100vh;
+  display: table;
+}
+
+.name {
+  font-size: 65px;
+  margin: 0;
+  padding: 10px;
+  color: rgb(1, 1, 112);
+}
+
+.intro .building {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 25px;
+}
+
+.intro .building::after {
+  content: attr(data-end);
+  font-size: 25px;
+}
+
+.fade-in {
+  transition: opacity 1s ease;  
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.btnBox {
+  padding: 10px;
+}
+
+.intro .hoverEffect:hover {
+  background-color: rgb(1, 1, 112);
+}
+
+.more-me {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.my-pic {
+  height: 500px;
+  width: 500px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.resume-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin: 10px;
+  gap: 20px;
+}
+
+.footer {
+  background-color: #282c34;
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  padding: 5px;
+}
+
+.icon {
+  color: white;
+  margin-right: 10px;
+}
+
+.built-by {
+  font-size: 11px;
+}
