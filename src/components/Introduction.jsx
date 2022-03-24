@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import AniButton from "./AniButton";
 import { motion } from "framer-motion";
+import {Link} from 'react-scroll'
 
 function Introduction() {
   // Variants
@@ -25,6 +26,7 @@ function Introduction() {
     }
   }
 
+
   return (
     <div className="row intro">
       <h4>Hi, I'm </h4>
@@ -35,15 +37,22 @@ function Introduction() {
       {/* <h1 className="name">Yoonsoo</h1> */}
       <motion.p variants={containerVar} 
       initial="hidden" animate="visible"
+      style={{fontSize: '25px'}}
       >
         I'm a Developer, Surfer, Golfer, Former Sea Rescuer, Tech Lover, Foodie,
-        Powerlifter, Water Drinker, and a Trojan
+        Powerlifter, and a Water Drinker
       </motion.p>
       <motion.p variants={secondP} initial="hidden" animate="visible" data-end=" ;" className="building">
         Building my universe one semicolon at a time
       </motion.p>
       <div className="panel-body container btnBox">
-        <AniButton></AniButton>
+        <Link to="more-me"
+        spy={true} 
+        smooth={true} 
+        duration={100}
+        delay={100}>
+          <AniButton text='Get To Know Me!'></AniButton>
+        </Link>
       </div>
     </div>
   );

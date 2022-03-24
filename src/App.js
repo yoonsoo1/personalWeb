@@ -1,13 +1,14 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Introduction from './components/Introduction'
-import MoreMe from './components/MoreMe'
+import Introduction from './components/Introduction';
+import MoreMe from './components/MoreMe';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="container">
-      <Introduction></Introduction>
-      <MoreMe></MoreMe>
+      <Introduction/>
+      <MoreMe/>
+      <Footer/>
     </div>
   );
 }
