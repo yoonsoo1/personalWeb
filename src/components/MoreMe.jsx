@@ -38,7 +38,7 @@ class MoreMe extends Component {
                 />
     
                 <Carousel.Caption>
-                <h3>App (Mobiile and Web) Dev</h3>
+                <h3>App (Mobile and Web) Dev</h3>
                 <p>I am always working on building different web and mobile applications.</p>
                 <p>My skills are: React, React Native, Android Studio, Node.js, Express, MySql, PHP, and Firebase</p>
                 </Carousel.Caption>
