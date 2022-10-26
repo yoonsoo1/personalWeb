@@ -7,8 +7,10 @@ function App() {
   return (
     <div className="container">
       <Introduction/>
-      <MoreMe/>
-      <Footer/>
+      <div className="second-page">
+        <MoreMe/>
+        <Footer/>
+      </div>
     </div>
   );
 }
