@@ -39,8 +39,8 @@ function Introduction() {
       initial="hidden" animate="visible"
       style={{fontSize: '25px'}}
       >
-        I'm a Developer, Surfer, Golfer, Former Sea Rescuer, Tech Lover, Foodie,
-        Powerlifter, and a Water Drinker
+        I'm a Developer, Surfer, Golfer, Former Sea Rescuer, Tech Lover, Foodie, and a
+        Powerlifter
       </motion.p>
       <motion.p variants={secondP} initial="hidden" animate="visible" data-end=" ;" className="building">
         Building my universe one semicolon at a time
