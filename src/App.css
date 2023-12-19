@@ -102,13 +102,21 @@ body h4 {
   padding: 10px;
 }
 
+.btn-color {
+  background-color: #8D94BA;
+}
+
+.hoverEffect:hover {
+  background-color: #9A7AA0;
+
+}
+
 .intro .hoverEffect:hover {
   background-color: rgb(1, 1, 112);
 }
 
-.more-me {
-  border-radius: 5px;
-  max-width: 100%;
+.name-stuff {
+  color: #84DCC6;
 }
 
 .w-100 {
@@ -116,9 +124,16 @@ body h4 {
   height: 95vh;
 }
 
+.circular-image {
+    border-radius: 50%;
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+}
+
 .my-pic {
-  height: 500px;
-  width: 500px;
+  height: 200px;
+  width: 200px;
 }
 
 img {

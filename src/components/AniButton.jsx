@@ -7,7 +7,7 @@ function AniButton(props) {
         <motion.button
           whileHover={{scale:1.1}}
           whileTap={{scale:0.9}}
-          className='btn btn-outline-primary hoverEffect'
+          className='hoverEffect btn-color rounded-full px-4 text-white font-bold py-2'
           >
             {props.text}
         </motion.button>
