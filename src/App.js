@@ -10,6 +10,7 @@ function App() {
       <Introduction />
       <MoreMe />
       {/* <Experiences /> */}
+      <Footer />
     </div>
   );
 }
