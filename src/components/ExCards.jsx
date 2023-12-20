@@ -10,13 +10,13 @@ function ExCards({currTab}) {
     const [currCard, setCurrCard] = useState(0)
     const allCards = {
         2023: [
-            <ExCard imageName={"USC"} image={USC} title={"AI Research Engineer @ USC"} date={"Jan 2023 - Present"} description={[
+            <ExCard imageName={"USC"} image={USC} title={"AI Research Engineer"} company={"@ USC"} date={"Jan 2023 - Present"} description={[
                 "• Advised by Dr. Shrikanth Narayanan and Dr. Swabha Swayamdipta to publish papers on multimodal AI",
                 "• Publish first author paper at IEEE ICASSP '24 on video summarization by grounding visual information with text",
                 "• Third author paper on missing modality in multimodal Transformers to achieve state of the art performance",
                 "• Spearhead research projects by communicating with the professors and the team, holding group meetings 2 times/week"
             ]}/>,
-            <ExCard image={Manifest} title={"Fullstack Software Engineer @ Manifest: Custom Affirmations App"} date={"Jan 2023 - May 2023"} description={[
+            <ExCard image={Manifest} title={"Fullstack Software Engineer"} company={"@ Manifest: Custom Affirmations App"} date={"Jan 2023 - May 2023"} description={[
                 "• Develop NextJS frontend handle server API calls and present contents from recommendation engine",
                 "• Utilize Firebase to hold user data and leverage the login functionality",
                 "• Architecting the backend structure for a personalized, integrated wellness and lifestyle coaching platform",
@@ -25,7 +25,7 @@ function ExCards({currTab}) {
             ]}/>,
         ],
         2022: [
-            <ExCard image={Knowre} title={"AI Research Engineering Intern @ Knowre"} date={"May 2022 - Jul 2022"} description={[
+            <ExCard image={Knowre} title={"AI Research Engineering Intern"} company={"@ Knowre"} date={"May 2022 - Jul 2022"} description={[
                 "• Collaborated with the senior AI Scientist to assess project goals to design and upgrade the codebase",
                 "• Engineered Transformer and Linformer models to perform knowledge tracing on real user data",
                 "• Reduced development costs by 33% by restructuring the data pipeline and fine-tuning hyperparameters",
@@ -33,11 +33,11 @@ function ExCards({currTab}) {
             ]}/>
         ],
         2021: [
-            <ExCard image={ROKAF} title={"Staff Sergeant @ Republic of Korea Air Force"} date={"Sep 2017 - Aug 2019"} description={[
+            <ExCard image={ROKAF} title={"Staff Sergeant"} company={"@ Republic of Korea Air Force"} date={"Sep 2017 - Aug 2019"} description={[
                 "• Translator, Flight Armorer, Administrative Clerk at Flight Headquarters",
                 "• Led a group of three developers to automize maintenance task and manpower management: awarded squadron commander’s award certificate for distinguished service",
-                "• Participated in multi-million dollar projects of the Korean Air Force with Lockheed Martin, Airbus, and GE. ",
-                "• Supported emergency sea rescue missions with a four men flight crew, finishing the service as the leader of the response team consisting of over twenty flight armorers. "
+                "• Participated in multi-million dollar projects of the Korean Air Force with Lockheed Martin, Airbus, and GE",
+                "• Supported emergency sea rescue missions with a four men flight crew, finishing the service as the leader of the response team consisting of over twenty flight armorers",
             ]}/>,
         ]
     }
