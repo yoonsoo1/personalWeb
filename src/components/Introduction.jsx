@@ -53,7 +53,7 @@ function Introduction() {
               <div className="text-white text-center mb-8 px-8 text-4xl font-bold lg:text-8xl">
                 <Typewriter text="Hi, I'm Yoonsoo!" delay={100} />
               </div>
-              <motion.div variants={containerVar} initial="hidden" animate="visible" className="text-white text-center mb-4 px-8 text-2xl lg:text-5xl">
+              <motion.div variants={containerVar} initial="hidden" animate="visible" className="text-white text-center mb-8 px-8 text-2xl lg:text-5xl">
                 Welcome to my personal space where I present things I have been doing and have done
               </motion.div>
             </div>            
@@ -70,7 +70,7 @@ function Introduction() {
                     </Link>
                   </div>
               </div>
-              <div className="text-white text-center mb-4 px-16 text-xl lg:text-3xl">
+              <div className="text-white text-center mb-12 px-16 text-xl lg:text-3xl">
                 Starting with the picture I took here of my hometown, Busan! 😃
               </div>
             </motion.div>

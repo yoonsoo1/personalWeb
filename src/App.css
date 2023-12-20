@@ -119,6 +119,19 @@ body h4 {
   color: #84DCC6;
 }
 
+.logo-image {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+}
+
+.exp-box {
+  margin: 10px;
+  outline-color: #95A3B3;
+  outline-style: solid;
+  outline-width: 5px;
+}
+
 .w-100 {
   width: 100% !important;
   height: 95vh;
