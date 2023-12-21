@@ -221,13 +221,15 @@ img {
   font-size: 11px;
 }
 
-.video-responsive {
-  position: relative;
-  padding-bottom: 56.25%; /* Aspect ratio of 16:9 (height 9 / width 16 = 0.5625) */
-  height: 0;
-  overflow: hidden;
-  display: flex;
-  justify-content: center; /* Center horizontally */
+@media (max-width: 768px) {
+  .video-responsive {
+    position: relative;
+    padding-bottom: 56.25%; /* Aspect ratio of 16:9 (height 9 / width 16 = 0.5625) */
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+  }
 }
 
 @media (max-width: 768px) {
@@ -240,3 +242,9 @@ img {
   }
 }
 
+.video-responsive {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+}
