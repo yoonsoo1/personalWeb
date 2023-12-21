@@ -11,7 +11,7 @@ function App() {
     {
       id: 1,
       title: 'Video Summary Comparison',
-      date: 'Dec 11, 2023',
+      date: 'Dec 18, 2023',
       content: [
         'The evaluation of summarization in the domain of text is very subjective. One user may find summary A, which fits their preference better, over summary B. What happens when we have multiple summaries? The difference can be BIG because an individual’s preference is rather hard to control. Citing <a href= https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1090460/>Hripcsak et al.</a>, which showed that average of agreement among experts is numerically identical to average F-measure, TVSum assumes that by getting the average F-measures amongst many annotators, we can evaluate the model’s performance.',
         'In this blog post, I wanted to demonstrate how difficult this process actually is. An interesting paper from TMLR, <a href=https://openreview.net/pdf?id=Uj6MRfR1P5>Chhabra et al.</a>, this month showed how intricate this process is. It turns out, the annotator’s preference can be attributable to their identity such as race and gender. Such fairness has not been reflected in previous video summary datasets. Even accounting for these background information, it is still very hard to measure the “soundness” or “goodness” of a video summary.',
